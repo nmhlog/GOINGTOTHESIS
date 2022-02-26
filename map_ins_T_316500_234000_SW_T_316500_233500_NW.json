@@ -1,28 +1,4 @@
 {
-    "vegetation": {
-        "088": {
-            "total_point": 6153,
-            "path": "T_316500_234000_SW_T_316500_233500_NW/vegetation_tree_89.txt",
-            "sub_class": "tree",
-            "id": "088"
-        }
-    },
-    "ground": {
-        "018": {
-            "total_point": 2443461,
-            "path": "T_316500_234000_SW_T_316500_233500_NW/ground_street_01.txt",
-            "sub_class": "street",
-            "id": "000"
-        }
-    },
-    "undefined": {
-        "000": {
-            "total_point": 15,
-            "path": "T_316500_234000_SW_T_316500_233500_NW/undefined.txt",
-            "sub_class": "undefined",
-            "id": "-01"
-        }
-    },
     "building": {
         "000": {
             "total_point": 226122,
@@ -3246,6 +3222,30 @@
                 "T_316500_234000_SW_T_316500_233500_NW/building_81_window_05.txt"
             ],
             "path_all_data": "all_data_building/T_316500_234000_SW_T_316500_233500_NW/building_080.npy"
+        }
+    },
+    "vegetation": {
+        "088": {
+            "total_point": 6153,
+            "path": "T_316500_234000_SW_T_316500_233500_NW/vegetation_tree_89.txt",
+            "sub_class": "tree",
+            "id": "088"
+        }
+    },
+    "ground": {
+        "018": {
+            "total_point": 2443461,
+            "path": "T_316500_234000_SW_T_316500_233500_NW/ground_street_01.txt",
+            "sub_class": "street",
+            "id": "000"
+        }
+    },
+    "undefined": {
+        "000": {
+            "total_point": 15,
+            "path": "T_316500_234000_SW_T_316500_233500_NW/undefined.txt",
+            "sub_class": "undefined",
+            "id": "-01"
         }
     }
 }
