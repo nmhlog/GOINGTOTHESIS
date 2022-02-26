@@ -10,5 +10,6 @@ requirement :
         sudo snap install cloudcompare
 
     pcl for python:
+    https://salsa.debian.org/python-team/packages/python-pcl/-/tree/master/docs
     sudo apt-get install python3-pcl pcl-tools
 ```
