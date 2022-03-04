@@ -26,7 +26,7 @@ def read_meta_data (path):
         return contents
 
 def main(foldername,meta_log):
-    os.makedirs(f"{foldername}",exist_ok=True)
+    os.makedirs(f"Dataset/{foldername}",exist_ok=True)
     
     with open(meta_log,'r') as f:
         raw_log = f.readlines()
@@ -42,11 +42,11 @@ def main(foldername,meta_log):
         buff_name = raw_log[i][10:].strip().split("(")[-1][:-1] 
         buff_points_agg = int(raw_log[i+1][10:].strip().split(" ")[1])
         old_path = raw_log[i+3][10:].strip().split("'")[1]
-        new_path = f"{foldername}/{buff_name}.txt"
+        new_path = f"Dataset/{foldername}/{buff_name}.txt"
         dict_file[buff_name] ={"path":new_path,"jumlah_point":buff_points_agg}
         os.rename(old_path, new_path)
 
-    save_meta_data(f"{foldername}/meta_data",dict_file)
+    save_meta_data(f"Dataset/{foldername}/meta_data",dict_file)
 
 if __name__ == "__main__":
     print(foldername)
