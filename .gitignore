@@ -45,3 +45,12 @@ T_316000_234000_SE.json
 T_316000_234000_SW.json
 T_316500_234000_SW_T_316500_233500_NW.json
 __pycache__/data_understanding.cpython-38.pyc
+Dataset_clean/
+Dataset_buff_clean/
+Dublin_combine_clean.tar.xz
+Dublin_combine_clean.zip
+logg.txt
+Dataset_clean.zip
+__pycache__/data_understanding.cpython-38.pyc
+combine_log.txt
+__pycache__/data_understanding.cpython-38.pyc
